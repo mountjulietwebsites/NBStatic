@@ -1,0 +1,304 @@
+html, body {
+    overflow: hidden;
+    height: 100%;
+}
+
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    max-width: 100vw;
+    max-height: 100vh;
+}
+p {
+    font-size: 24px;
+    color: white;
+}
+#top {
+    font-size: 68px;
+    text-shadow: 5px 5px 5px rgb(149, 142, 142);
+    display: flex;
+    justify-content: center;
+    margin-top: 14px;
+    font-weight: bold;
+}
+.socialsDiv {
+    position: absolute;
+    top: 2%;
+    left: 3%;
+    border: 2px solid white;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 24px;
+}
+a {
+    color: rgb(247, 248, 248);
+    font-size: 24px;
+    text-underline-offset: 3px;
+}
+#instaLink {
+    margin-top: 12px;
+}
+#paragraphP {
+    font-size: 20px;
+    width: 220px;
+    margin-top: -8px;
+    text-align: center;
+}
+.descDiv {
+    position: absolute;
+    top: 2%;
+    right: 4%;
+    border: 2px solid white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.logoLink {
+    display: block;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -16px;
+}
+#logo {
+    display: block;
+    margin-bottom: -8px;
+}
+#TNBcontact {
+    font-size: 17px;
+    position: fixed;
+    bottom: 3%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#ziggycontact {
+    font-size: 16px;
+    position: fixed;
+    bottom: -1%;
+    left: 50%;
+    transform: translateX(-50%)
+    
+
+}
+#spot {
+    border-radius: 70%;
+    margin-top: -16px;
+    margin-left: 24px;
+}
+#reeddc {
+    border-radius: 50%;
+    margin-left: 11px;
+}
+#reedP {
+    text-align: center;
+    font-size: 24px;
+}
+#insta {
+    border-radius: 28%;
+}
+.spotDiv {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.instaDiv {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 50px;
+}
+#spotText {
+    margin-top: 24px;
+}
+#instaText {
+    margin-top: 40px;
+}
+#socialP {
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 64px;
+    margin-top: 20px;
+}
+#descP {
+    font-size: 30px;
+    text-align: center;
+}
+#new {
+    display: flex;
+    justify-content: center;
+    margin-top: -50px;
+}
+#song {
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+}
+#banner {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    border-radius: 8px;
+
+}
+#stream {
+    font-size: 16px;
+    margin-top: -50px;
+    margin-bottom: 50px;
+    margin-left: -5px;
+}
+#watch {
+    font-size: 16px;
+    margin-top: -50px;
+    margin-bottom: 30px;
+    margin-left: -5px;
+
+}
+#follow {
+    font-size: 16px;
+    margin-bottom: 46px;
+    margin-left: 10px;
+    margin-top: -20px;
+}
+
+
+
+
+
+@media (max-width: 600px) {
+    html, body {
+        overflow-x: hidden !important;
+        overflow-y: auto;
+        width: 90vw;
+        height: auto;
+        max-height: none;
+        max-width: 90vw;
+    }
+    body {
+        max-width: 90vw;
+        padding: 0 8px;
+        font-size: 16px;
+        background-color: black;
+    }
+    #top {
+        font-size: 44px;
+        margin-top: 12px;
+        text-align: center;
+    }
+    #new, #song {
+        font-size: 18px;
+        text-align: center;
+        position: static;
+        margin-top: -24px;
+    }
+    .socialsDiv, .descDiv {
+        position: static;
+        width: 90%;
+        margin: 16px 0;
+        border-width: 1px;
+        font-size: 16px;
+        box-sizing: border-box;
+        padding: 12px 8px;
+        border-radius: 8px;
+        left: 50%;
+        transform: translateX(7%)
+    }
+    .descDiv {
+        height: 660px;
+    }
+    #reeddc {
+        position: fixed;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 2%;
+    }
+    #reedP {
+        position: fixed;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 34%;
+    }
+    #paragraphP {
+        position: fixed;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .socialsDiv {
+        height: 270px;
+    }
+    .spotDiv, .instaDiv {
+        flex-direction: row;
+        align-items: center;
+        gap: 12px;
+        margin-top: 12px;
+    }
+    #spot, #insta {
+        width: 64px;
+        height: 64px;
+        display: block;
+        position: fixed;
+    }
+    #spot {
+        left: 60%;
+        top: 33%;
+    }
+    #stream {
+        position: fixed;
+        left: 60%;
+        bottom: 38.5%;
+    }
+    #spotText {
+        position: fixed;
+        top: 24%;
+    }
+    #instaText {
+        top: 55%;
+        position: fixed;
+    }
+    #insta {
+        left: 67.5%;
+        bottom: 12%;
+    }
+    #watch {
+        position: fixed;
+        left: 60%;
+        bottom: 1%;
+    }
+    #follow {
+        position: fixed;
+        left: 11%;
+        width: 300px;
+        top: 12%;
+    }
+    #socialP {
+        font-size: 22px;
+        margin: 0 0 8px 0;
+        text-align: center;
+    }
+    #TNBcontact, #ziggycontact {
+        font-size: 13px;
+        position: static;
+        width: 100%;
+        text-align: center;
+        margin: 16px 0 0 0;
+        transform: none;
+    }
+    #logo {
+        width: 140px;
+        height: auto;
+        display: block;
+        margin: 16px auto;
+        position: static;
+    }
+    #banner {
+        position: static;
+        bottom: 90%;
+        width: 300px;
+        height: 100px;
+        display: block;
+        margin: 16px auto;
+    }
+    /* Optional: Reduce excessive negative margins */
+    #stream, #watch, #follow {
+        margin: 8px 0;
+    }
+}
