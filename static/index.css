@@ -245,6 +245,7 @@ a {
         position: fixed;
         left: 60%;
         bottom: 38.5%;
+        width: 400px;
     }
     #spotText {
         position: fixed;
@@ -262,6 +263,7 @@ a {
         position: fixed;
         left: 60%;
         bottom: 1%;
+        width: 400px;
     }
     #follow {
         position: fixed;
