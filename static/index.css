@@ -190,6 +190,9 @@ a {
         position: static;
         margin-top: -24px;
     }
+    #song {
+        margin-top: 1px;
+    }
     .socialsDiv, .descDiv {
         position: static;
         width: 90%;
@@ -243,9 +246,10 @@ a {
     }
     #stream {
         position: fixed;
-        left: 58.5%;
+        left: 2%;
         bottom: 38.5%;
         width: 400px;
+        font-size: 12px;
     }
     #spotText {
         position: fixed;
@@ -261,15 +265,15 @@ a {
     }
     #watch {
         position: fixed;
-        left: 57%;
+        left: 2%;
         bottom: 1%;
         width: 400px;
+        font-size: 12px;
     }
     #follow {
-        position: fixed;
-        left: 11%;
-        width: 300px;
         top: 12%;
+        font-size: 12px;
+        text-align: center;
     }
     #socialP {
         font-size: 22px;
@@ -298,6 +302,9 @@ a {
         height: 100px;
         display: block;
         margin: 16px auto;
+    }
+    #reedP {
+        bottom: 29%;
     }
     /* Optional: Reduce excessive negative margins */
     #stream, #watch, #follow {
