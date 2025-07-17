@@ -40,7 +40,7 @@ a {
     margin-top: 12px;
 }
 #paragraphP {
-    font-size: 20px;
+    font-size: 18.5px;
     width: 220px;
     margin-top: -8px;
     text-align: center;
@@ -122,6 +122,7 @@ a {
 #descP {
     font-size: 30px;
     text-align: center;
+    font-weight: bold;
 }
 #new {
     display: flex;
@@ -214,12 +215,6 @@ a {
         transform: translateX(-50%);
         bottom: 2%;
     }
-    #reedP {
-        position: fixed;
-        left: 50%;
-        transform: translateX(-50%);
-        bottom: 34%;
-    }
     #paragraphP {
         position: fixed;
         left: 50%;
@@ -305,6 +300,20 @@ a {
     }
     #reedP {
         bottom: 29%;
+    }
+    .descDiv {
+        height: 500px;
+    }
+    #paragraphP {
+        font-size: 19px;
+    }
+    #reeddc {
+        display: none;
+    }
+    .bannerDiv {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
     /* Optional: Reduce excessive negative margins */
     #stream, #watch, #follow {
